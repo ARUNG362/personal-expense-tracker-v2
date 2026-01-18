@@ -1,1 +1,8 @@
 Build Command: ng b --output-path docs --base-href /personal-expense-tracker-v2/
+
+Module:
+    ng g m auth --routing
+    ng g m transaction --routing
+
+Component:
+    ng g c dashboard --skip-tests
